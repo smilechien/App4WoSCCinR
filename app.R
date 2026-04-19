@@ -1265,7 +1265,7 @@ ui <- fluidPage(
 
       fileInput(
         "wos_xls",
-        "Upload WoS file (.xls/.xlsx, max 100MB)",
+        "Upload WoS file (.xls/.xlsx, max 30MB(=20,000 rows*72 cols)",
         accept = c(".xls", ".xlsx")
       ),
 
